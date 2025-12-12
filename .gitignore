@@ -1,0 +1,16 @@
+# Docker volumes (data is persisted in Docker, not needed in git)
+data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files with secrets
+.env
+.env.local
